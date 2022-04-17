@@ -182,7 +182,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: -10px;
-  /* margin-bottom: -10px; */
 }
 
 .card {
@@ -198,8 +197,6 @@ img {
 
 .card-about {
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 .card-title {
@@ -208,14 +205,12 @@ img {
   line-height: 26px;
   color: #000000;
   margin-bottom: 10px;
-  flex: 1;
 }
 
 .card-text {
   line-height: 22px;
   color: #4a4b4c;
   margin-bottom: 15px;
-  flex: 1;
 }
 
 .card-img {
