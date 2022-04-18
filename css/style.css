@@ -233,13 +233,15 @@ img {
   width: 1050px;
   margin: 0 auto;
   padding: 24px 30px;
-  background-image: url("../img/notif-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 60px;
   display: flex;
   align-items: center;
+  border-radius: 10px;
   justify-content: space-between;
+  background-color: #FFCDA9;
+  background-image: url("../img/notif-bg.jpg");
 }
 
 .notif-title {
