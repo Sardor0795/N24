@@ -387,6 +387,10 @@ img {
   background-color: #7297ef;
 }
 
+.footer-container{
+  width: 998px;
+}
+
 .footer-logo {
   margin-bottom: 15px;
 }
