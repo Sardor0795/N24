@@ -236,6 +236,20 @@ a:active {
   flex-grow: 1;
 }
 
+/* main shop img */
+
+.shop-img {
+  margin-bottom: 50px;
+}
+
+.shop-img a {
+  border-radius: 10px;
+}
+
+.shop-img a:hover {
+  opacity: unset;
+}
+
 /* SITE-FOOTER */
 
 .site-footer {

@@ -1,99 +1,18 @@
-/* MAIN_CONTENT */
-
-/* main card section */
-
-.card-section {
-  margin-bottom: 60px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -10px;
-}
-
-.card {
-  background-color: #f6f6f6;
-  width: 393px;
-  padding: 18px;
-  border-radius: 15px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-about {
-  flex-grow: 1;
-}
-
-.card-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
-  margin-bottom: 10px;
-}
-
-.card-text {
-  line-height: 22px;
-  color: #4a4b4c;
-  margin-bottom: 15px;
-}
-
-.card-img {
-  margin-bottom: 15px;
-  border-radius: 10px;
-}
-
-.card-info {
-  display: flex;
-  align-items: center;
-}
-
-.card-icon {
-  margin-right: 10px;
-}
-
-/* NOTIF */
-
-.notif {
-  width: 1050px;
-  margin: 0 auto;
-  padding: 24px 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 60px;
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  justify-content: space-between;
-  background-color: #ffcda9;
-  background-image: url("../img/notif-bg.jpg");
-}
-
-.notif-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
-}
-
-.notif-btn {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #ffffff;
-  border: none;
-  background-color: #f78b3b;
-  padding: 13px 30px;
-  border-radius: 10px;
-}
-
 /* INFO SECTION */
+
+.info-section a{
+    color: #000000;
+    border-radius: 5px;
+}
+
+.info-section a:hover{
+    color: #2E74E4;
+}
 
 .info-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -123,19 +42,13 @@
   margin-bottom: 10px;
 }
 
-.card-section a, .info-section a{
-  color: #000000;
-  border-radius: 5px;
-}
-
-.card-section a:hover, .info-section a:hover{
-  color: #2E74E4;
-}
-
-
 .info-card-img {
   border-radius: 10px;
   margin-right: 10px;
+}
+
+.info-card-img:hover {
+  opacity: unset;
 }
 
 .info-card-content {
@@ -148,6 +61,8 @@
   line-height: 26px;
   color: #000000;
   margin-bottom: 10px;
+  transition: color 0.3s;
+  border-radius: 8px;
 }
 
 .info-card-text {
@@ -158,14 +73,15 @@
 
 .info-card-about {
   display: flex;
-  align-items: center;
   font-size: 12px;
   line-height: 14px;
   color: #5e5f61;
+  align-items: center;
 }
 
 .info-card-about-img {
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 .info-btn {

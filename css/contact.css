@@ -1,0 +1,100 @@
+.contact-wrapper a {
+  color: #000000;
+  border-radius: 5px;
+}
+
+.contact-wrapper a:hover {
+  color: #2e74e4;
+}
+
+.main-content {
+  margin-bottom: 100px;
+}
+
+.contact-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper {
+  display: flex;
+}
+.contact-form {
+  width: 696px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-block {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 9px;
+}
+
+.form-input-50 {
+  width: calc(50% - 5px);
+  margin-bottom: 0;
+}
+
+.form-input-text {
+  min-height: 180px;
+  resize: vertical;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  width: 494px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 40px 25px;
+  height: 310px;
+}
+
+.send-btn {
+  align-self: flex-end;
+  padding: 17px 30px;
+  background: #7297ef;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.d-list {
+  padding: 20px 0;
+}
+
+.d-list:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.d-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+
+.d-data {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
