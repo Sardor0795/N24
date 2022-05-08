@@ -1,29 +1,17 @@
-
 /* MAIN_CONTENT */
-
-/* main nav */
-
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #d1d1d1;
-  margin-bottom: 40px;
-}
-
-.main-nav-link {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  color: #7f7f7f;
-}
 
 /* main shop img */
 
 .shop-img {
   margin-bottom: 50px;
+}
+
+.shop-img a {
+  border-radius: 10px;
+}
+
+.shop-img a:hover {
+  opacity: unset;
 }
 
 /* main card section */
@@ -91,7 +79,7 @@
   align-items: center;
   border-radius: 10px;
   justify-content: space-between;
-  background-color: #FFCDA9;
+  background-color: #ffcda9;
   background-image: url("../img/notif-bg.jpg");
 }
 

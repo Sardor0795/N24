@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- CSS links -->
-    
+
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/shared.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -24,23 +24,42 @@
 
     <!-- Site Header -->
 
-    <header class="site-header">
-        <div class="container header-container">
-            <a class="header-logo-link" href="#"><img class="header-logo-img" src="img/site-logo.svg" width="264"
-                    height="28" alt="Site-logo"></a>
-            <div class="header-currency">
-                <div class="currency-usd"><span class="currency-symbol">$</span>10137.2</div>
-                <div class="currency-rub"><span class="currency-symbol">P</span>138.26</div>
+    <header>
+        <div class="site-header">
+            <div class="container header-container">
+                <a class="header-logo-link" href="#"><img class="header-logo-img" src="img/site-logo.svg" width="264"
+                        height="28" alt="Site-logo"></a>
+                <div class="header-currency">
+                    <div><a class="currency-usd" href="#"><span class="currency-symbol">$</span>10137.2</a></div>
+                    <div><a class="currency-rub" href="#"><span class="currency-symbol">P</span>138.26</a></div>
+                </div>
+                <div class="header-search">
+                    <input type="text" placeholder="Поиск" class="header-search-input">
+                </div>
+                <div class="header-lang">
+                    <a href="#" class="lang active">УЗ</a>
+                    <a href="#" class="lang">РУ</a>
+                </div>
+                <button class="header-btn">Войти</button>
             </div>
-            <div class="header-search">
-                <img class="header-search-icon" src="img/search-icon.svg" width="20" height="20" alt="">
-                <input type="text" placeholder="Поиск" class="header-search-input">
-            </div>
-            <div class="header-lang">
-                <span class="header-lang-active">УЗ</span>
-                РУ
-            </div>
-            <button class="header-btn">Войти</button>
+        </div>
+        <div class="container">
+
+            <!-- Header nav -->
+
+            <ul class="header-nav">
+                <li><a class="header-nav-link" href="#">Главное</a></li>
+                <li><a class="header-nav-link" href="#">Интересное</a></li>
+                <li><a class="header-nav-link" href="#">Экономика</a></li>
+                <li><a class="header-nav-link" href="#">Политика</a></li>
+                <li><a class="header-nav-link" href="#">Общество</a></li>
+                <li><a class="header-nav-link" href="#">Технологии</a></li>
+                <li><a class="header-nav-link" href="#">Спорт</a></li>
+                <li><a class="header-nav-link" href="#">Культура</a></li>
+                <li><a class="header-nav-link" href="#">Происшествия</a></li>
+                <li><a class="header-nav-link" href="#">Наука</a></li>
+            </ul>
+            <hr class="line-break">
         </div>
     </header>
 
@@ -49,25 +68,11 @@
     <main class="main-content">
         <div class="container">
 
-            <!-- main nav -->
-
-            <ul class="main-nav">
-                <li><a class="main-nav-link" href="#">Главное</a></li>
-                <li><a class="main-nav-link" href="#">Интересное</a></li>
-                <li><a class="main-nav-link" href="#">Экономика</a></li>
-                <li><a class="main-nav-link" href="#">Политика</a></li>
-                <li><a class="main-nav-link" href="#">Общество</a></li>
-                <li><a class="main-nav-link" href="#">Технологии</a></li>
-                <li><a class="main-nav-link" href="#">Спорт</a></li>
-                <li><a class="main-nav-link" href="#">Культура</a></li>
-                <li><a class="main-nav-link" href="#">Происшествия</a></li>
-                <li><a class="main-nav-link" href="#">Наука</a></li>
-            </ul>
-
             <!-- main shop img -->
 
             <div class="shop-img">
-                <img src="img/shop-img.jpg" width="1200" height="128" alt="shop img" srcset="img/shop-img.jpg 1x, img/shop-img@2x.jpg 2x">
+                <a href="#"><img src="img/shop-img.jpg" width="1200" height="128" alt="shop img"
+                        srcset="img/shop-img.jpg 1x, img/shop-img@2x.jpg 2x"></a>
             </div>
 
             <!-- main card section -->
@@ -80,9 +85,11 @@
                         <p class="card-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на
                             должность...</p>
                     </div>
-                    <img class="card-img" width="359" height="165" src="img/card-1.jpg" alt="" srcset="img/card-1.jpg 1x, img/card-1@2x.jpg 2x">
+                    <img class="card-img" width="359" height="165" src="img/card-1.jpg" alt=""
+                        srcset="img/card-1.jpg 1x, img/card-1@2x.jpg 2x">
                     <div class="card-info">
-                        <img class="card-icon" src="img/card-icon-1.jpg" width="20" height="20" alt="" srcset="img/card-icon-1.jpg 1x, img/card-icon-1@2x.jpg 2x">
+                        <img class="card-icon" src="img/card-icon-1.jpg" width="20" height="20" alt=""
+                            srcset="img/card-icon-1.jpg 1x, img/card-icon-1@2x.jpg 2x">
                         <p>ИА Красная Весна 15:55</p>
                     </div>
                 </div>
@@ -92,9 +99,11 @@
                         <p class="card-text">Новое исследование ученых университета Иллинойса объединяет полевые
                             данные...</p>
                     </div>
-                    <img class="card-img" width="359" height="165" src="img/card-2.jpg" alt="" srcset="img/card-2.jpg 1x, img/card-2@2x.jpg 2x">
+                    <img class="card-img" width="359" height="165" src="img/card-2.jpg" alt=""
+                        srcset="img/card-2.jpg 1x, img/card-2@2x.jpg 2x">
                     <div class="card-info">
-                        <img class="card-icon" src="img/card-icon-2.jpg" width="20" height="20" alt="" srcset="img/card-icon-2.jpg 1x, img/card-icon-2@2x.jpg 2x">
+                        <img class="card-icon" src="img/card-icon-2.jpg" width="20" height="20" alt=""
+                            srcset="img/card-icon-2.jpg 1x, img/card-icon-2@2x.jpg 2x">
                         <p>Газета.Ru 12:54</p>
                     </div>
                 </div>
@@ -103,9 +112,11 @@
                         <h3 class="card-title">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</h3>
                         <p class="card-text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
                     </div>
-                    <img class="card-img" width="359" height="165" src="img/card-3.jpg" alt="" srcset="img/card-3.jpg 1x, img/card-3@2x.jpg 2x">
+                    <img class="card-img" width="359" height="165" src="img/card-3.jpg" alt=""
+                        srcset="img/card-3.jpg 1x, img/card-3@2x.jpg 2x">
                     <div class="card-info">
-                        <img class="card-icon" src="img/card-icon-3.jpg" width="20" height="20" alt="" srcset="img/card-icon-3.jpg 1x, img/card-icon-3@2x.jpg 2x">
+                        <img class="card-icon" src="img/card-icon-3.jpg" width="20" height="20" alt=""
+                            srcset="img/card-icon-3.jpg 1x, img/card-icon-3@2x.jpg 2x">
                         <p>Хайтек+ 13:44</p>
                     </div>
                 </div>
@@ -114,9 +125,11 @@
                         <h3 class="card-title">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</h3>
                         <p class="card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
                     </div>
-                    <img class="card-img" width="359" height="165" src="img/card-4.jpg" alt="" srcset="img/card-4.jpg 1x, img/card-4@2x.jpg 2x">
+                    <img class="card-img" width="359" height="165" src="img/card-4.jpg" alt=""
+                        srcset="img/card-4.jpg 1x, img/card-4@2x.jpg 2x">
                     <div class="card-info">
-                        <img class="card-icon" src="img/card-icon-4.jpg" width="20" height="20" alt="" srcset="img/card-icon-4.jpg 1x, img/card-icon-4@2x.jpg 2x">
+                        <img class="card-icon" src="img/card-icon-4.jpg" width="20" height="20" alt=""
+                            srcset="img/card-icon-4.jpg 1x, img/card-icon-4@2x.jpg 2x">
                         <p>Digger.ru 14:25</p>
                     </div>
                 </div>
@@ -126,9 +139,11 @@
                             SARS-CoV-2</h3>
                         <p class="card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
                     </div>
-                    <img class="card-img" width="359" height="165" src="img/card-5.jpg" alt="" srcset="img/card-5.jpg 1x, img/card-5@2x.jpg 2x">
+                    <img class="card-img" width="359" height="165" src="img/card-5.jpg" alt=""
+                        srcset="img/card-5.jpg 1x, img/card-5@2x.jpg 2x">
                     <div class="card-info">
-                        <img class="card-icon" src="img/card-icon-5.jpg" width="20" height="20" alt="" srcset="img/card-icon-5.jpg 1x, img/card-icon-5@2x.jpg 2x">
+                        <img class="card-icon" src="img/card-icon-5.jpg" width="20" height="20" alt=""
+                            srcset="img/card-icon-5.jpg 1x, img/card-icon-5@2x.jpg 2x">
                         <p>Lenta.ru 10:54</p>
                     </div>
                 </div>
@@ -138,18 +153,20 @@
                         <p class="card-text">Две модели китайского бренда JAC из пяти, представленных на российском...
                         </p>
                     </div>
-                    <img class="card-img" width="359" height="165" src="img/card-6.jpg" alt="" srcset="img/card-6.jpg 1x, img/card-6@2x.jpg 2x">
+                    <img class="card-img" width="359" height="165" src="img/card-6.jpg" alt=""
+                        srcset="img/card-6.jpg 1x, img/card-6@2x.jpg 2x">
                     <div class="card-info">
-                        <img class="card-icon" src="img/card-icon-6.jpg" width="20" height="20" alt="" srcset="img/card-icon-6.jpg 1x, img/card-icon-6@2x.jpg 2x">
+                        <img class="card-icon" src="img/card-icon-6.jpg" width="20" height="20" alt=""
+                            srcset="img/card-icon-6.jpg 1x, img/card-icon-6@2x.jpg 2x">
                         <p>Тарантас Ньюс 10:44</p>
                     </div>
                 </div>
             </section>
-            
+
             <!-- main notif -->
 
             <div class="notif">
-                <h3 class="notif-title">Хотите быть в курсе свежих новостей? <br>  Включите уведомления!
+                <h3 class="notif-title">Хотите быть в курсе свежих новостей? <br> Включите уведомления!
                 </h3>
                 <button class="notif-btn">Включит</button>
             </div>
@@ -161,45 +178,64 @@
                 <div class="info-block">
                     <div class="info-left">
                         <div class="info-card">
-                            <img class="info-card-img" src="img/info-img-1.jpg" width="210" height="165" alt="" srcset="img/info-img-1.jpg 1x, img/info-img-1@2x.jpg 2x">
+                            <img class="info-card-img" src="img/info-img-1.jpg" width="210" height="165" alt=""
+                                srcset="img/info-img-1.jpg 1x, img/info-img-1@2x.jpg 2x">
                             <div class="info-card-content">
-                                <h3 class="info-card-title">Китайский Чунцин запустил чартерный рейс для студентов до Британии</h3>
-                                <p class="info-card-text">Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
+                                <h3 class="info-card-title">Китайский Чунцин запустил чартерный рейс для студентов до
+                                    Британии</h3>
+                                <p class="info-card-text">Чартерный рейс с 244 китайскими студентами вылетел из города
+                                    центрального подчинения Чунцина на юго-западе Китая в британский Манчестер...</p>
                                 <div class="info-card-about">
-                                    <img class="info-card-about-img" src="img/card-icon-1.jpg" width="20" height="20" alt="" srcset="img/card-icon-1.jpg 1x, img/card-icon-1@2x.jpg 2x">
+                                    <img class="info-card-about-img" src="img/card-icon-1.jpg" width="20" height="20"
+                                        alt="" srcset="img/card-icon-1.jpg 1x, img/card-icon-1@2x.jpg 2x">
                                     ИА Красная Весна 12:25
                                 </div>
                             </div>
                         </div>
                         <div class="info-card">
-                            <img class="info-card-img" src="img/info-img-2.jpg" width="210" height="165" alt="" srcset="img/info-img-2.jpg 1x,img/info-img-2@2x.jpg 2x">
+                            <img class="info-card-img" src="img/info-img-2.jpg" width="210" height="165" alt=""
+                                srcset="img/info-img-2.jpg 1x,img/info-img-2@2x.jpg 2x">
                             <div class="info-card-content">
-                                <h3 class="info-card-title">В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</h3>
-                                <p class="info-card-text">БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
+                                <h3 class="info-card-title">В Германии выпустят ограниченную партию плюшевых мишек в
+                                    образе Меркель</h3>
+                                <p class="info-card-text">БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по
+                                    производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила
+                                    уникального...</p>
                                 <div class="info-card-about">
-                                    <img class="info-card-about-img" src="img/info-icon-2.jpg" width="20" height="20" alt="" srcset="img/info-icon-2.jpg 1x, img/info-icon-2@2x.jpg 2x">
+                                    <img class="info-card-about-img" src="img/info-icon-2.jpg" width="20" height="20"
+                                        alt="" srcset="img/info-icon-2.jpg 1x, img/info-icon-2@2x.jpg 2x">
                                     ТАСС 11:35
                                 </div>
                             </div>
                         </div>
                         <div class="info-card">
-                            <img class="info-card-img" src="img/info-img-3.jpg" width="210" height="165" alt="" srcset="img/info-img-3.jpg 1x, img/info-img-3@2x.jpg 2x">
+                            <img class="info-card-img" src="img/info-img-3.jpg" width="210" height="165" alt=""
+                                srcset="img/info-img-3.jpg 1x, img/info-img-3@2x.jpg 2x">
                             <div class="info-card-content">
-                                <h3 class="info-card-title">Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</h3>
-                                <p class="info-card-text">За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
+                                <h3 class="info-card-title">Акции КНР утратили доверие инвесторов. Что делать с бумагами
+                                    прямо сейчас</h3>
+                                <p class="info-card-text">За последние месяцы инвесторы в китайский рынок пережили
+                                    настоящее потрясение — из-за ужесточения регулирования технологического сектора и
+                                    критики некоторых...</p>
                                 <div class="info-card-about">
-                                    <img class="info-card-about-img" src="img/info-icon-3.jpg" width="20" height="20" alt="" srcset="img/info-icon-3.jpg 1x, img/info-icon-3@2x.jpg 2x">
+                                    <img class="info-card-about-img" src="img/info-icon-3.jpg" width="20" height="20"
+                                        alt="" srcset="img/info-icon-3.jpg 1x, img/info-icon-3@2x.jpg 2x">
                                     РБК Инвестиции 09:35
                                 </div>
                             </div>
                         </div>
                         <div class="info-card">
-                            <img class="info-card-img" src="img/info-img-4.jpg" width="210" height="165" alt="" srcset="img/info-img-4.jpg 1x, img/info-img-4@2x.jpg 2x">
+                            <img class="info-card-img" src="img/info-img-4.jpg" width="210" height="165" alt=""
+                                srcset="img/info-img-4.jpg 1x, img/info-img-4@2x.jpg 2x">
                             <div class="info-card-content">
-                                <h3 class="info-card-title">Китай раскритиковал заключенный Австралией, США и Великобританией антикитайский союз AUKUS</h3>
-                                <p class="info-card-text">Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
+                                <h3 class="info-card-title">Китай раскритиковал заключенный Австралией, США и
+                                    Великобританией антикитайский союз AUKUS</h3>
+                                <p class="info-card-text">Не только Франция, которая лишилась многомиллиардного
+                                    контракта с Австралий, осталась недовольна созданием трехстороннего оборонного
+                                    альянса AUKUS, пишет Anna-News.info</p>
                                 <div class="info-card-about">
-                                    <img class="info-card-about-img" src="img/info-icon-4.jpg" width="20" height="20" alt="" srcset="img/info-icon-4.jpg 1x, img/info-icon-4@2x.jpg 2x">
+                                    <img class="info-card-about-img" src="img/info-icon-4.jpg" width="20" height="20"
+                                        alt="" srcset="img/info-icon-4.jpg 1x, img/info-icon-4@2x.jpg 2x">
                                     Solenka.info 19:43
                                 </div>
                             </div>
@@ -210,23 +246,24 @@
                         <div class="right-info-block">
                             <h2 class="info-right-heading">Главное</h2>
                             <div class="right-info-box">
-                                 <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
+                                <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
                                 <p class="right-info-time">Sputnik Узбекистан 14:09</p>
-                            </div>                         
+                            </div>
                             <div class="right-info-box">
-                                 <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
+                                <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
                                 <p class="right-info-time">Sputnik Узбекистан 14:09</p>
-                            </div>                         
+                            </div>
                             <div class="right-info-box">
-                                 <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
+                                <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
                                 <p class="right-info-time">Sputnik Узбекистан 14:09</p>
-                            </div>                         
+                            </div>
                             <div class="right-info-box">
-                                 <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
+                                <h3 class="right-info-title">В Фергане создадут узбекско-пакистанский университет</h3>
                                 <p class="right-info-time">Sputnik Узбекистан 14:09</p>
-                            </div>  
+                            </div>
                         </div>
-                        <img class="right-info-img" src="img/info-big-img.jpg"  height="335" alt="" srcset="img/info-big-img.jpg 1x, img/info-big-img@2x.jpg 2x">                       
+                        <img class="right-info-img" src="img/info-big-img.jpg" height="335" alt=""
+                            srcset="img/info-big-img.jpg 1x, img/info-big-img@2x.jpg 2x">
                     </div>
                 </div>
             </section>
