@@ -98,3 +98,7 @@ textarea {
   line-height: 19px;
   color: #000000;
 }
+
+.site-header input {
+  margin-bottom: 0;
+}
