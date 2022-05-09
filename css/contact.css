@@ -66,8 +66,12 @@ textarea {
   width: 494px;
   background-color: #f6f6f6;
   border-radius: 10px;
-  padding: 40px 25px;
+  padding: 20px 25px;
   height: 310px;
+}
+
+input.form-input-email {
+  margin-bottom: 9px;
 }
 
 .send-btn {
@@ -101,6 +105,6 @@ textarea {
   color: #000000;
 }
 
-.site-header input {
+.header-search-input {
   margin-bottom: 0;
 }
