@@ -2,7 +2,6 @@
 
 .info-block {
   display: flex;
-  margin-bottom: 60px;
 }
 
 /* Info Right */
@@ -40,6 +39,7 @@
 .about-content-img img {
   width: 100%;
 }
+
 .about-content-text {
   font-weight: 400;
   font-size: 20px;
