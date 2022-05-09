@@ -1,12 +1,12 @@
 /* INFO SECTION */
 
-.info-section a{
-    color: #000000;
-    border-radius: 5px;
+.info-section a {
+  color: #000000;
+  border-radius: 5px;
 }
 
-.info-section a:hover{
-    color: #2E74E4;
+.info-section a:hover {
+  color: #2e74e4;
 }
 
 .info-title {

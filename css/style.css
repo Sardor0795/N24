@@ -108,6 +108,7 @@
   max-width: 70%;
   padding-right: 10px;
 }
+
 .info-right {
   width: 30%;
   flex-basis: 30%;
@@ -123,15 +124,16 @@
   margin-bottom: 10px;
 }
 
-.card-section a, .info-section a{
+.card-section a,
+.info-section a {
   color: #000000;
   border-radius: 5px;
 }
 
-.card-section a:hover, .info-section a:hover{
-  color: #2E74E4;
+.card-section a:hover,
+.info-section a:hover {
+  color: #2e74e4;
 }
-
 
 .info-card-img {
   border-radius: 10px;

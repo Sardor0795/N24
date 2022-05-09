@@ -130,9 +130,9 @@
 }
 
 .about-cards-block {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
 }
 
 .about-card {
