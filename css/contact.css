@@ -22,12 +22,14 @@
 .contact-wrapper {
   display: flex;
 }
+
 .contact-form {
   width: 696px;
   margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
+
 .contact-block {
   display: flex;
   justify-content: space-between;
