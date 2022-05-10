@@ -75,7 +75,7 @@
 
 .card-section a:hover,
 .info-section a:hover {
-  color: #2e74e4;
+  color: var(--accent-color);
 }
 
 .right-info-block {

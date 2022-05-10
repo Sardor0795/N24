@@ -6,7 +6,7 @@
 }
 
 .info-section a:hover {
-  color: #2e74e4;
+  color: var(--accent-color);
 }
 
 .info-title {

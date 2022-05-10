@@ -1,28 +1,33 @@
 /* GLOBAL CSS */
+:root {
+  --accent-color: #7297ef;
+  --main-font: "Rubik", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
   padding: 0;
   margin: 0;
 }
 
 *:focus {
-  outline: 2px dashed #7296ec;
+  outline: 2px dashed var(--accent-color);
   outline-offset: 3px;
-}
-
-html {
-  scroll-behavior: smooth;
-  height: 100%;
 }
 
 body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: "Rubik", sans-serif;
+  font-family: var(--main-font);
   font-size: 16px;
   font-weight: 400;
 }
@@ -41,7 +46,7 @@ ul {
 
 a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
   color: #ffffff;
   transition: opacity 0.3s, color 0.3s;
 }
@@ -106,7 +111,7 @@ a:active {
   margin-right: 5px;
   font-weight: 700;
   font-size: 16px;
-  color: #2959ce;
+  color: var(--accent-color);
 }
 
 .currency-usd {
@@ -192,7 +197,7 @@ a:active {
 .header-btn {
   display: inline-block;
   color: #fff;
-  background-color: #7296ec;
+  background-color: var(--accent-color);
   border: 0;
   padding: 13px 20px;
   font-weight: 500;
@@ -207,8 +212,6 @@ a:active {
   flex-wrap: wrap;
   align-items: center;
   padding-top: 30px;
-  /* border-bottom: 1px solid #d1d1d1; */
-  /* margin-bottom: 40px; */
   margin-left: -27.5px;
 }
 
@@ -223,6 +226,10 @@ a:active {
   margin-left: 27.5px;
 }
 
+.header-nav-link:hover {
+  color: var(--accent-color);
+}
+
 .line-break {
   margin-bottom: 40px;
   border: 0;
@@ -234,6 +241,7 @@ a:active {
 
 .main-content {
   flex-grow: 1;
+  margin-bottom: 100px;
 }
 
 /* main shop img */
@@ -254,7 +262,7 @@ a:active {
 
 .site-footer {
   padding: 40px 0;
-  background-color: #7297ef;
+  background-color: var(--accent-color);
 }
 
 .footer-container {
@@ -335,7 +343,11 @@ a:active {
   border-radius: 5px;
 }
 
+.site-footer a {
+  --accent-color: #fff;
+}
+
 .site-footer a:focus {
-  outline: 2px dashed #fff;
+  outline: 2px dashed var(--accent-color);
   outline-offset: 4px;
 }
