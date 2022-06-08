@@ -14,9 +14,9 @@
 
     <!-- CSS links -->
 
-    <!-- <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/shared.css">
-    <link rel="stylesheet" href="./css/style.css"> -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="./css/shared.css"> -->
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/main-min.css">
 
     <title>N24</title>
@@ -36,7 +36,8 @@
                     <div><a class="currency-rub" href="#"><span class="currency-symbol">P</span>138.26</a></div>
                 </div>
                 <div class="header-search">
-                    <input type="text" list="ilst-data" placeholder="Поиск" aria-label="Поиск" class="header-search-input">
+                    <input type="text" list="ilst-data" placeholder="Поиск" aria-label="Поиск"
+                        class="header-search-input">
                 </div>
                 <div class="header-lang">
                     <a href="#" class="lang active">УЗ</a>
@@ -183,7 +184,7 @@
             <div class="notif">
                 <h3 class="notif-title">Хотите быть в курсе свежих новостей? <br> Включите уведомления!
                 </h3>
-                <button class="notif-btn">Включит</button>
+                <button class="notif-btn" id="notif-btn">Включит</button>
             </div>
 
             <!-- main info section -->
@@ -336,6 +337,25 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal window -->
+
+    <div class="modal-window">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <p class="modal-text">
+                    Хотите быть в курсе свежих новостей? <br> Включите уведомления!
+                </p>
+                <button class="notif-btn">Включит</button>
+                <button class="modal-close">
+                    <img class="modal-close-icon" src="./img/modal-close-icon.svg" width="13" height="13"
+                        alt="close-icon">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
 
 </body>
 
