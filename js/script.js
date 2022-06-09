@@ -15,5 +15,5 @@ if (elModalWindow) {
 
   setTimeout(function () {
     elModalWindow.classList.add("modal-open");
-  }, 3000);
+  }, 5000);
 }
