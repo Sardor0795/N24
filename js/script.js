@@ -12,8 +12,4 @@ if (elModalWindow) {
   elModalClose.addEventListener("click", function () {
     elModalWindow.classList.remove("modal-open");
   });
-
-  setTimeout(function () {
-    elModalWindow.classList.add("modal-open");
-  }, 5000);
 }
