@@ -13,3 +13,20 @@ if (elModalWindow) {
     elModalWindow.classList.remove("modal-open");
   });
 }
+
+// Lang toggle
+
+const elsLangToggle = document.querySelectorAll(".js-lang-toggle");
+
+const dell = () => {
+  elsLangToggle.forEach((el) => {
+    el.classList.remove("active");
+  });
+};
+
+elsLangToggle.forEach((el) => {
+  el.addEventListener("click", function () {
+    dell();
+    el.classList.add("active");
+  });
+});
