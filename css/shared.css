@@ -100,6 +100,9 @@ a:active {
   padding: 8px 6px;
   border-radius: 7px;
   margin-right: 35px;
+  color: #7297ef;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .header-currency {
